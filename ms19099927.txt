@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "bredbrains.tech",
+  "Id": "23b9b120-6ddc-47d2-99ea-d1c2a964bc15"
+}
