@@ -10,6 +10,7 @@ header {
     padding: 10;
     display: inline-block;
     width: 100%;
+    padding: 0.5rem;
 }
 
 a {
@@ -18,12 +19,36 @@ a {
     text-decoration: none;
     color: white;
     margin: auto;
-    font-size: 1.5rem;
-    padding: 0.45rem 1.5rem;
+    font-size: 1.2rem;
     vertical-align: middle;
 }
 
-img {
-    height: 3rem;
-    padding: 0 0.5rem;
+.brandlogo {
+    padding: 0.1rem;
+}
+
+.pages {
+    padding: 0rem 2rem;
+}
+
+.githublogo {
+    float: right;
+    padding-right: 2rem;
+}
+
+
+.githublogo > img {
+    height: 2rem;
+    margin-top: 0.35rem;
+}
+
+.githublogo > img {
+    height: 2rem;
+    margin-top: 0.35rem;
+}
+
+.logo {
+    margin-left: 2rem;
+    margin-top: 5px;
+    height: 2rem;
 }
