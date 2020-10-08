@@ -4,17 +4,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+nav {
     background-color: orange;
     background-image: linear-gradient(to right, orange, purple);
     display: inline-block;
     width: 100%;
-    padding: 0.5rem;
+    box-sizing: border-box;
+    padding: 0.75rem;
 }
 
-header a {
+nav a {
     display: inline-block;
-    position: relative;
     text-decoration: none;
     color: white;
     margin: auto;
@@ -22,8 +22,48 @@ header a {
     vertical-align: middle;
 }
 
+.head-of-page-text {
+    font-size: 1.5rem;
+}
+
+.head-of-page-description {
+    line-break: loose;
+    margin-bottom: 2rem;
+}
+
 h1 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.works ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.works li {
+    text-align: center;
+    display: table;
+    float: left;
+    margin: 1rem;
+}
+
+.works li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+
+.works li .work-description {
+    margin: 0.5rem;
+    width: 16rem;
+}
+.works li .work-technology {
+    font-style: italic;
 }
 
 .brandlogo {
@@ -56,16 +96,85 @@ h1 {
     height: 2rem;
 }
 
-.content {
-    padding: 1rem 0rem 5rem 0rem;
+.kontakt {
+    clear: both;
+    box-sizing: border-box;
+}
+
+.kontakt-description {
+    text-align: center;
+}
+
+section {
+    margin: 2rem;
+}
+
+section h1 {
+    margin: 1rem 0;
+}
+
+.head-of-page {
+    padding: 1rem 0rem 3rem 0rem;
     color: white;
     text-align: center;
     background-image: linear-gradient(to right, orange, purple);
+}
+
+.head-of-page-logo {
+    height: 4rem;
 }
 
 .moreBtn {
     color: white;
     text-decoration: none;
     border: solid 1px white;
-    padding: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
 }
+
+.moreBtn:hover {
+    font-weight: 500;
+    transition-duration: 0.3s;
+    background-color: white;
+    color: purple;
+}
+
+.team {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+.team-member {
+    position: relative;
+    float: left;
+    margin: 0 2rem;
+}
+
+.team-member .name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.team-member .role {
+    margin-top: 0.5rem;
+}
+
+.mail a {
+    text-decoration: none;
+    font-size: 10px;
+    color: gray;
+}
+
+.photo > img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+footer {
+    margin: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
