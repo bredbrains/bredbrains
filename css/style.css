@@ -157,7 +157,7 @@ section h1 {
 }
 
 .team-member .role {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0;
 }
 
 .mail a {
