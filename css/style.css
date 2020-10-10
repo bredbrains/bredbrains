@@ -41,7 +41,8 @@ h3 {
 
 .works ul {
     display: table;
-    margin: 0 auto;
+    margin: auto;
+    justify-content: center;
 }
 
 .works li {
@@ -141,14 +142,15 @@ section h1 {
 
 .team {
     display: table;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 
 .team-member {
-    position: relative;
     float: left;
-    margin: 0 2rem;
+    margin: 0 3rem;
+    height: 17rem;
 }
 
 .team-member .name {
