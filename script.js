@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        var x = $("#works").offset();
+        let y = $(this).scrollTop();
+        let x = $('section:nth-child(1)').offset();
         if (y > x.top) {
             $('nav').fadeIn().css({"position": "fixed"});
         } else {
