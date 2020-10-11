@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(document).scroll(function () {
         let y = $(this).scrollTop();
-        let x = $('section:nth-child(1)').offset();
+        let x = $("#works").offset();
         if (y > x.top) {
             $('nav').fadeIn().css({"position": "fixed"});
         } else {
@@ -12,6 +12,6 @@ $(document).ready(function() {
 
 function scrollToWorks() {
     $('html, body').animate({
-        scrollTop: $('section:nth-child(1)').offset().top
+        scrollTop: $("#works").offset().top
     }, 1000);
 }
