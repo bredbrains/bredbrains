@@ -12,6 +12,6 @@ $(document).ready(function() {
 
 function scrollToWorks() {
     $('html, body').animate({
-        scrollTop: $("#works").offset().top
+        scrollTop: $('section:nth-child(1)').offset().top
     }, 1000);
 }
