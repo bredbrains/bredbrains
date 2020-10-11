@@ -3,7 +3,7 @@ $(document).ready(function() {
         var y = $(this).scrollTop();
         var x = $("#works").offset();
         if (y > x.top) {
-            $('nav').fadeIn().css({ "position": "fixed"});
+            $('nav').fadeIn().css({"position": "fixed"});
         } else {
             $('nav').css({"position" : "relative"});
         }
